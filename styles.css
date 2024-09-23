@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    background: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header {
+    background: url(/img/header.jpg);
+    background-size: cover;
+    height: 530px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    width: 270px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 26px;
+}
+
+h4 {
+    color: #00ed82;
+    text-transform: uppercase;
+}
+
+header .header-text-1 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+header .header-text-2 {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.header-content-btn {
+    padding: 20px 44px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.legal-text {
+    color: #ccc;
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+.sub-header {
+    padding: 30px 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        318.68deg,
+        #0f495c 0%,
+        #0d3640 49.72%,
+        #08141f 100%
+      );
+    gap: 40px;
+}
+
+.sub-header-btn {
+    background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 40px;
+}
+
+.sub-link {
+    display: block;
+    color: #ccc;
+    font-size: 10px;
+    margin-top: 6px;
+    text-decoration: underline;
+}
+
+.sub-header div:last-of-type {
+    text-align: center;
+    justify-self: end;
+}
+
+.text-xl {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.sub-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    max-width: 850px;
+}
+
+.categories {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.categories .covers > div {
+    height: 500px;
+    width: 300px;
+}
+
+.categories .covers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+}
+
+
+.categories .cover-1 {
+    background: url(/img/cover-1.jpg);
+}
+
+.categories .cover-2 {
+    background: url(/img/cover-2.jpg);
+}
+
+
+.categories .cover-3 {
+    background: url(/img/cover-3.jpg);
+}
+
+.categories .cover-4 {
+    background: url(/img/cover-4.jpg);
+}
+
+.covers .cover-styles {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.live {
+    padding: 40px;
+    background: #151516;
+}
+
+.live-border {
+    padding: 100px;
+    border: 5px solid #1ce783;
+    border-radius: 15px;
+}
+
+.live-border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.live-link {
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.live-sports {
+    background: url(/img/live-sports.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.live-sports-content {
+    max-width: 550px;
+    position: absolute;
+    top: 160px;
+    left: 100px;
+}
+
+.live-sports-logos {
+    width: 300px;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.live-sports-logos > div {
+    height: 60px;
+    width: 60px;
+    background: url(img/network-logo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.live-sports-logos img {
+    width: 40px;
+}
+
+footer {
+    background: #ebedf2;
+    color: #333;
+}
+
+.footer-container {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 40px;
+}
+
+footer a {
+    color: #333;
+}
+
+footer .list-head {
+    font-weight: bold;
+}
+
+.footer-lists {
+    display: flex;
+    justify-content: space-around;
+}
+
